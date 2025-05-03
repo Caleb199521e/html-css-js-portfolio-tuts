@@ -150,7 +150,7 @@ section{
     min-height: fit-content;
     
 }
-section-container{
+.section-container{
     display: flex;
     
 }
@@ -257,6 +257,44 @@ section-container{
 .btn-container{
   gap: 1rem;
 }
+
+/* About Section */
+#about{
+     position: relative; 
+}
+
+.about-containers{
+  gap:2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container{
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.about-containers, .about-details-container{
+  display: flex;
+  
+}
+
+.about-pic{
+  border-radius: 2rem;
+
+}
+
+.arrow{
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+  height: 2rem;
+  width: 2;
+}
+
+
+
 
 
 
